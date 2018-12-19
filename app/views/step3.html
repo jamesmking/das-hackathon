@@ -1,0 +1,32 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Find an apprentice for my business
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Find a training provider
+      </h1>
+      <p>For Hairdressing, level 2:</p>
+      <div class="govuk-form-group">
+        <label class="govuk-label" for="full-name">
+          Enter a postcode
+        </label>
+        <input class="govuk-input govuk-input--width-10" id="full-name" name="full-name" type="text" placeholder="e.g CV1 2WT" >
+        </div>
+
+        <div class="govuk-form-group">
+            <a href="step4.html" class="govuk-button">Search</a>
+        </div>
+
+
+
+    </div>
+</div>
+
+{% endblock %}

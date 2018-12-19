@@ -1,0 +1,60 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Find an apprentice for my business
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Find an apprentice for my business
+      </h1>
+      <p>
+        We need to know the type of apprentice you would like to recruit. Start by entering a few keywords and we will show you the apprenticeships available
+      </p>
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="full-name">
+            Search by keywords
+          </label>
+          <input class="govuk-input" id="full-name" name="full-name" type="text" placeholder="e.g Hairdresser" >
+          </div>
+
+         <p>Search results</p>
+
+         <ul class="app-task-list__items search-results">
+         <li class="app-task-list__item">
+           <a  href="#">
+             Hairdressing
+           </a>
+           <p>Level:2 (equivalent to GCSEs at grades A* to C) Typical length:12 months</p>
+           <p><a href="step3.html"> Select </a></p>
+         </li>
+         <li class="app-task-list__item">
+           <a  href="#">
+             Hairdressing
+           </a>
+           <p>Level:3 (equivalent to A levels at grades A to E) Typical length:12 months</p>
+         </li>
+         <li class="app-task-list__item">
+        <a  href="#">
+
+Hair Professional
+        </a>
+        <p>Level:2 (equivalent to GCSEs at grades A* to C) Typical length:24 months</p>
+        </li>
+        <li class="app-task-list__item">
+        <a  href="#">
+          Barbering
+        </a>
+        <p>Level:3 (equivalent to A levels at grades A to E) Typical length:12 months</p>
+        </li>
+       </ul>
+
+
+    </div>
+</div>
+
+{% endblock %}
